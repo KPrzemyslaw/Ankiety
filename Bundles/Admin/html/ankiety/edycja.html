@@ -1,0 +1,29 @@
+
+<htmltemplate id="ankiety-edycja">
+    <div class="kpcontainer kp100pr">
+        <div class="kpcontainer kpfloatleft kp66pr">
+            <input id="kp-questionnaire-edit_name" class="kp99pr" type="text" name="kp-questionnaire-edit[name]" />
+            <label class="kpcontainer kp100pr">
+                <input id="kp-questionnaire-edit_current" type="checkbox" name="kp-questionnaire-edit[current]" value="1" />
+                <span>Ankieta aktywna</span>
+            </label>
+        </div>
+        <div class="kpcontainer kpfloatright kp33pr">
+            <button type="button" onclick="questObject.save()">Zapisz</button>
+            <button type="button" onclick="questObject.cancel()">Anuluj</button>
+            <button type="button" onclick="questObject.remove()">Usuń</button>
+        </div>
+    </div>
+    <div id="kp-questionnaire-edit-fieldset" class="kpcontainer kp100pr">
+        <div class="kpcontainer kp100pr">
+            <br /><br />
+        </div>
+        <div class="kpcontainer kp100pr">
+            <button type="button" class="kp-questionnaire-edit-addpage">+ Nowa strona</button>
+        </div>
+        <div id="kp-questionnaire-edit-page-list" class="kpcontainer kp100pr"></div>
+        <div class="kpcontainer kp100pr">
+            <button type="button" class="kp-questionnaire-edit-addpage">+ Nowa strona</button>
+        </div>
+    </div>
+</htmltemplate>

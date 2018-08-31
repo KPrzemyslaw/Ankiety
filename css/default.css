@@ -1,0 +1,60 @@
+.kpauto {
+    width:auto;
+}
+
+.kp100pr {
+    width:100%;
+}
+
+.kp99pr {
+    width:99%;
+}
+
+.kp94pr {
+    width:94%;
+}
+
+.kp89pr {
+    width:89%;
+}
+
+.kp75pr {
+    width:75%;
+}
+
+.kp66pr {
+    width:66%;
+}
+
+.kp49pr {
+    width:49%;
+}
+
+.kp33pr {
+    width:33%;
+}
+
+.kp24pr {
+    width:24%;
+}
+
+.kp10pr {
+    width:10%;
+}
+
+.kp5pr {
+    width:5%;
+}
+
+.kpcontainer {
+    overflow:hidden;
+    display:block;
+}
+
+.kpfloatleft {
+    float:left;
+}
+
+.kpfloatright {
+    float:right;
+}

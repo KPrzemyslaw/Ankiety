@@ -1,0 +1,26 @@
+
+#kp-questionnaire-edit {
+    display:none;
+}
+
+.kp-questionnaire-list-line:hover {
+    background-color: chocolate;
+    color:white;
+}
+
+.ankiety-edycja-fields-field {
+    margin:5px 5px 5px 0;
+    padding:5px;
+    background-color: chartreuse;
+    min-width:60px;
+}
+
+.kp-questionnaire-answers-fieldset-line-name {
+    margin:10px 0 2px 0;
+    border-bottom:1px solid #cccccc;
+}
+
+.kp-questionnaire-answers-fieldset-line-value-bar {
+    background-color: blue;
+    height:20px;
+}

@@ -1,0 +1,13 @@
+.settings
+.buildpath
+.project
+*.backup
+.idea/*
+
+css/admin.css
+css/client.css
+html/admin.html
+html/client.html
+js/admin.js
+js/client.js
+etc/configure.json

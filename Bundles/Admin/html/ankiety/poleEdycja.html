@@ -1,0 +1,41 @@
+<htmltemplate id="ankiety-edycja-fields-field-edit">
+    <div class="kpcontainer kpfloatleft ankiety-edycja-fields-field-edit">
+        <div class="kpcontainer kp100pr">
+            <button class="kpfloatright kp-questionnaire-edit-page-line-field-removeFieldButton" type="button">Delete</button>
+            <button class="kpfloatright kp-questionnaire-edit-page-line-field-cancelFieldButton" type="button">Cancel</button>
+            <button class="kpfloatright kp-questionnaire-edit-page-line-field-saveFieldButton" type="button">Save</button>
+        </div>
+        <div class="kpcontainer kp100pr">
+            <table class="kp100pr" border="0">
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <input id="ankiety-edycja-fields-field_main_description" class="ankiety-edycja-fields-field_main_description" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Typ</td>
+                    <td>
+                        <select id="ankiety-edycja-fields-field_main_type" class="kp100pr ankiety-edycja-fields-field_main_type" name="ankiety-edycja-fields-field-selectType">
+                            <option value="text">Text</option>
+                            <option value="textarea">Text Area</option>
+                            <option value="radio" selected="selected">Radio check</option>
+                            <option value="checkbox">Checkbox</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="kpcontainer kp100pr">Parametry</span>
+                        <button type="button" class="ankiety-edycja-fields-field_main_type_params_new">+</button>
+                    </td>
+                    <td>
+                        <table border="0" class="kp100pr">
+                            <tbody id="ankiety-edycja-fields-field_main_type_params_list"></tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</htmltemplate>

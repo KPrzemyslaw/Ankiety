@@ -1,0 +1,29 @@
+
+html, body {
+    background-color: #cccccc;
+}
+
+#ankieta-main-container .strona {
+    display:none;
+}
+
+
+#ankieta-main-container .strona .strona-ankieta-lines {
+    background-color: #ffffff;
+    margin:20px 0;
+}
+
+#ankieta-main-container .strona .strona-ankieta-lines .strona-ankieta-lines-line {
+}
+
+#ankieta-main-container .strona .strona-ankieta-lines .strona-ankieta-lines-line-fields {
+    background-color: #b5b5b5;
+    margin:5px 20px 20px 5px;
+}
+
+#ankieta-main-container .strona .strona-ankieta-lines .strona-ankieta-lines-line-fields-field {
+    margin:5px;
+}
+
+button.kp-submit-and-go-to-next-page {
+}
